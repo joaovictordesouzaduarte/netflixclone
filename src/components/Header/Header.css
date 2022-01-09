@@ -28,3 +28,22 @@ header{
 header.black{
     background: #141414;
 }
+.header--list {
+    display: flex;
+    /* flex-direction: row; */
+    list-style: none;
+    margin-right: 0;
+    opacity: 1;
+    margin-right: 95em !important; 
+    
+}
+.header--list li{
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.header--list li:hover{
+    opacity: 70%;
+    transition: all ease-in 0.3s;
+}
+
