@@ -2,9 +2,10 @@ import React from 'react';
 import './FeaturedMovie.css';
 import {FaPlay} from 'react-icons/fa'
 
-function FeatureMovie({item}) {
+const FeatureMovie = ({item}) => {
 
-    let firstDate = new Date(item.first_air_date)
+    let firstDate = new Date(item.first_air_date);
+
     
     //Getting genres
     let genres = []
