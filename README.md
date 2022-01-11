@@ -47,4 +47,7 @@ Uma biblioteca necessária para o projeto é a instalação do React Icons. Para
 npm install react-icons --save
 ```
 
+# IMPORTANTE!
+O APP NÃO ESTÁ OTIMIZADO PARA MOBILE!
+
     

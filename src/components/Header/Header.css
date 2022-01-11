@@ -1,3 +1,4 @@
+
 header{
     position: fixed;
     z-index: 999;
@@ -28,22 +29,36 @@ header{
 header.black{
     background: #141414;
 }
-.header--list {
-    display: flex;
-    /* flex-direction: row; */
+
+.header--list{
+    display: grid;
+    grid-template-columns: repeat(5, auto) ;
+    grid-gap: 20px;
     list-style: none;
-    margin-right: 0;
+    margin-right: 110em;
     opacity: 1;
-    margin-right: 95em !important; 
-    
-}
-.header--list li{
-    margin-right: 15px;
     cursor: pointer;
-    font-size: 15px;
+    color: #E5E5E5;
 }
 .header--list li:hover{
     opacity: 70%;
     transition: all ease-in 0.3s;
 }
-
+.header--icon{
+    margin: 0 0 0 5px;
+    display: none;
+}
+.header--navigation{
+    position: absolute;
+    margin: 0 120px;
+    font-size: 10px;
+}
+.header--navigation--icon{
+    position: fixed;
+    margin-right: 3px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.header--mobile--menu--icon{
+    display: none;
+}
