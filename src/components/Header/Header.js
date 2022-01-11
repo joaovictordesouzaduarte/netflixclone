@@ -1,7 +1,5 @@
 import React from 'react'
 import './Header.css'
-import {FaCaretDown} from 'react-icons/fa'
-import { useState } from 'react'
 
 const Header = ({black}) => {   
 
